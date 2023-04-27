@@ -40,10 +40,3 @@ if (savedUsername === null) {
   // show the greeting
   paintGreetings(savedUsername);
 }
-
-// Math.random()*10 // 0~10 사이 랜덤숫자
-// Math.round()// 반올림
-// Math.ceil()// 올림
-// Math.floor()// 버림
-
-// Math.floor(Math.random()*10) // 0~10 사이의 정수
