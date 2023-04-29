@@ -1,4 +1,5 @@
-const images = ['0.png', '1.jpeg', '2.jpeg'];
+const bgWrapper = document.querySelector('.bg-wrapper');
+const images = ['0.png', '1.jpeg', '5.jpeg'];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
@@ -6,4 +7,4 @@ const bgImage = document.createElement('img');
 
 bgImage.src = `images/${chosenImage}`;
 
-document.body.appendChild(bgImage);
+bgWrapper.appendChild(bgImage);
